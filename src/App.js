@@ -10,7 +10,7 @@ class App extends Component {
       <Router>
         <div>
           <NavLink
-            to="/"
+            exact to="/"
             style={{padding: "12px"}}
             activeStyle={{fontWeight: "bold", color: "red", padding: "12px"}}
           >Home
